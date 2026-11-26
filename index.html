@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>шок</title>
+<meta name="description" data-desc content="шок (@spikyowner) — мд3 шоки спайкимс, shock@endeavouros. Персональная страница shock.spiky.team.">
+<link rel="canonical" href="https://shock.spiky.team/">
+<meta name="theme-color" content="#11140e">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="shock.spiky.team">
+<meta property="og:title" content="шок">
+<meta property="og:description" content="мд3 шоки спайкимс, shock@endeavouros, SpikyMC">
+<meta property="og:url" content="https://shock.spiky.team/">
+<meta property="og:image" content="https://shock.spiky.team/assets/avatar.jpg">
+<link rel="icon" href="assets/avatar.jpg">
+<link rel="preload" href="assets/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/gsf-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/symbols.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+  (function () {
+    var s = null; try { s = localStorage.getItem('theme'); } catch (e) {}
+    var dark = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    document.documentElement.classList.add('gated');
+  })();
+</script>
+<link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+<button class="gate" type="button" aria-label="войти и включить музыку">
+  <span class="gate-shape"><img data-avatar src="assets/avatar.jpg" width="320" height="320" alt=""></span>
+  <span class="gate-name"><span data-name>шок</span></span>
+  <span class="gate-hint"><span class="ms" aria-hidden="true">music_note</span>нажми, чтобы войти</span>
+</button>
+
+<button class="theme" type="button" role="switch" aria-checked="false" aria-label="тёмная тема">
+  <span class="theme-thumb"><span class="ms theme-ico" aria-hidden="true"></span></span>
+</button>
+
+<div class="page">
+  <header class="me">
+    <div class="avatar" style="--i:0">
+      <img data-avatar src="assets/avatar.jpg" width="320" height="320" alt="">
+    </div>
+    <h1 class="name" style="--i:1"><span data-name>шок</span></h1>
+    <p class="handles" style="--i:2">
+      <button class="handle" type="button" data-copy="@spikyowner"><span data-handle>@spikyowner</span></button>
+    </p>
+    <p class="bio" style="--i:3">ну короче лаунчер чёт делает нуу там чёт мд3 нравится нуу чёт такое</p>
+
+    <div class="chips" style="--i:4">
+      <button class="chip chip--accent" type="button" data-copy="shock@endeavouros"><span class="ms" aria-hidden="true">terminal</span>shock@endeavouros</button>
+      <span class="chip">мд3</span>
+      <span class="chip">шоки</span>
+      <span class="chip">спайкимс</span>
+    </div>
+
+    <div class="actions" style="--i:5">
+      <a class="btn btn--filled" data-tg-link href="https://t.me/spikyowner">
+        <span class="ms ms--send" aria-hidden="true">send</span>
+        написать
+      </a>
+      <a class="btn btn--tonal" href="https://funpay.com/users/20140382/"><span class="ms" aria-hidden="true">work</span>funpay</a>
+    </div>
+
+    <div class="player" style="--i:6" aria-label="музыка">
+      <img class="cover" src="assets/music/lexapro-delirium.jpg" width="256" height="256" alt="">
+      <div class="track">
+        <b class="track-title">Lexapro Delirium</b>
+        <span class="track-artist">Sewerslvt</span>
+      </div>
+      <button class="play" type="button" aria-label="играть"><span class="ms" aria-hidden="true">play_arrow</span></button>
+      <div class="seek">
+        <span class="time time-cur">0:00</span>
+        <canvas class="wave" role="slider" tabindex="0" aria-label="перемотка" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></canvas>
+        <span class="time time-dur">7:15</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="side">
+    <section class="spiky" style="--i:3" aria-labelledby="spiky-title">
+      <div class="spiky-top">
+        <img class="spiky-icon" src="assets/spikymc.svg" width="56" height="56" alt="">
+        <div>
+          <h2 class="spiky-name" id="spiky-title">Spiky<span>MC</span></h2>
+          <span class="spiky-url">mc.spiky.team</span>
+        </div>
+        <span class="spiky-ver">v1.2.0</span>
+      </div>
+      <p class="spiky-text">кастомный лаунчер Minecraft без лишнего мусора. летает на&nbsp;C++ и&nbsp;Qt, держит кучу сборок одновременно, дружит с&nbsp;Ely.by и&nbsp;оффлайн-аккаунтами из&nbsp;коробки.</p>
+      <div class="spiky-actions">
+        <a class="btn btn--spiky" href="https://mc.spiky.team"><span class="ms" aria-hidden="true">rocket_launch</span>залететь на mc.spiky.team</a>
+        <a class="btn btn--spiky-text" href="https://t.me/spikymc">@spikymc</a>
+      </div>
+    </section>
+
+
+    <section class="block" aria-labelledby="links-title">
+      <h2 class="block-title" id="links-title" style="--i:4">ссылки и движ</h2>
+      <ul class="group">
+        <li style="--i:5"><a class="row" data-tg-link href="https://t.me/spikyowner">
+          <span class="ico ms" aria-hidden="true">send</span>
+          <span class="row-text"><b>телега</b><small data-tg-text>@spikyowner, личка</small></span>
+        </a></li>
+        <li style="--i:6"><a class="row" href="https://funpay.com/users/20140382/">
+          <span class="ico ms" aria-hidden="true">work</span>
+          <span class="row-text"><b>FunPay</b><small>бизнес, сделки без скама</small></span>
+        </a></li>
+        <li style="--i:7"><a class="row" href="https://t.me/spikymc">
+          <span class="ico ms" aria-hidden="true">stadia_controller</span>
+          <span class="row-text"><b>канал лаунчера</b><small>@spikymc, обновы</small></span>
+        </a></li>
+      </ul>
+    </section>
+
+    <section class="block" aria-labelledby="hw-title">
+      <h2 class="block-title" id="hw-title" style="--i:8">железо и священный хлам</h2>
+      <ul class="group group--hw">
+        <li style="--i:9"><div class="row">
+          <span class="ico ms" aria-hidden="true">smartphone</span>
+          <span class="row-text"><small>телефон</small><b>Nothing Phone (3a) Pro</b><small>светится сзади как новогодняя ёлка</small></span>
+        </div></li>
+        <li style="--i:10"><div class="row">
+          <span class="ico ms" aria-hidden="true">headphones</span>
+          <span class="row-text"><small>уши</small><b>Nothing Ear (2024)</b><small>долбит нормально, прозрачные</small></span>
+        </div></li>
+        <li style="--i:11"><div class="row">
+          <span class="ico ms" aria-hidden="true">desktop_windows</span>
+          <span class="row-text"><small>основной комп</small><b>i5-10400F, GTX 750 Ti</b><small>750ti вечная легенда, кулер гудит</small></span>
+        </div></li>
+        <li style="--i:12"><div class="row">
+          <span class="ico ms" aria-hidden="true">laptop_chromebook</span>
+          <span class="row-text"><small>рабочий ноут</small><b>HP ProBook 430 G7</b><small>для серьёзных задач вне дома</small></span>
+        </div></li>
+        <li style="--i:13"><div class="row">
+          <span class="ico ms" aria-hidden="true">science</span>
+          <span class="row-text"><small>для краш-тестов</small><b>ThinkPad L420</b><small>им можно колоть орехи</small></span>
+        </div></li>
+      </ul>
+    </section>
+
+    <footer class="foot" style="--i:14">
+      <p>© 2026 шоки · <a href="https://spiky.team">spiky.team</a> · <a href="https://mc.spiky.team">mc.spiky.team</a></p>
+      <p class="credit">сделано в <a href="https://www.kurodesign.ru">Kuro.Design</a></p>
+      <p class="credit credit--sub">доработано <a href="https://zerootov.com">zerootov</a></p>
+    </footer>
+  </main>
+</div>
+
+<div class="snack" role="status" aria-live="polite"></div>
+
+<script src="script.js?v=3"></script>
+</body>
+</html>
